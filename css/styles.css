@@ -49,6 +49,14 @@ img {
     
 }
 
+.radios{
+display: grid;
+justify-content: center;
+}
+.radios__rep{
+  margin: 50px 10px;
+}
+
 @media (min-width: 760px) {
     
    .radios{
