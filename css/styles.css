@@ -49,11 +49,14 @@ img {
     
 }
 
-.radios{
-    display: flex;
-    gap: 30px;
-}
-.radios__rep{
-    margin-top: 30px;
-
+@media (min-width: 760px) {
+    
+   .radios{
+      display: flex;
+      gap: 30px;
+  }
+  .radios__rep{
+      margin-top: 30px;
+  
+  } 
 }
