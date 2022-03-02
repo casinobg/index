@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Oswald', sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.container{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+.no-margin{
+    margin: 0px;
+}
+.no-padding{
+    padding: 0px;
+}
+
+/* header */
+
+.header{
+    background-image: url(../assets/abbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50rem;
+    margin: 0;
+    padding: 0;
+ 
+}
+.opacity{
+    opacity: .3;
+}
+.header__text{
+    color: white;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 6rem;
+    
+}
+
+.radios{
+    display: flex;
+    gap: 30px;
+}
+.radios__rep{
+    margin-top: 30px;
+
+}
